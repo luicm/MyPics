@@ -2,21 +2,21 @@
 import Foundation
 
 struct PhotoGross: Codable, Equatable {
-    let albumID: Int
+    let albumId: Int
     let id: Int
     let title: String
-    let url: URL
-    let thumbnailUrl: URL
+    let url: String
+    let thumbnailUrl: String
 }
 
-struct Photo: Equatable {
+struct Photo: Equatable, Identifiable {
     let id: Int
     let title: String
-    let url: URL
-    let thumbnailUrl: URL
+    let url: URL?
+    let thumbnailUrl: URL?
 }
 
-struct Album: Equatable {
-    let albumID: Int
+struct Album: Equatable, Identifiable {
+    let id: Int
     let photos: [Photo]
 }

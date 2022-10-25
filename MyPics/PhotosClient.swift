@@ -45,7 +45,10 @@ extension PhotosClient {
                     return output.data
                 }
                 .decode(type: [PhotoGross].self, decoder: decoder)
-                .mapError { $0 as! PhotosClient.Failure }
+                .mapError {
+                    print($0)
+                    return $0 as! PhotosClient.Failure
+                }
                 .eraseToEffect()
         }
     )
