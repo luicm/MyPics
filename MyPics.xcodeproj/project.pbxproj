@@ -18,6 +18,7 @@
 		BDD36C2629087AA5008B0669 /* PhotosClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD36C2529087AA5008B0669 /* PhotosClient.swift */; };
 		BDD36C2929087B2E008B0669 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = BDD36C2829087B2E008B0669 /* ComposableArchitecture */; };
 		BDD36C2B29087B2E008B0669 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = BDD36C2A29087B2E008B0669 /* Dependencies */; };
+		BDD36C2D29087C3A008B0669 /* PhotosOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD36C2C29087C3A008B0669 /* PhotosOrganizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		BDD36C1629087878008B0669 /* MyPicsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPicsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BDD36C2329087971008B0669 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		BDD36C2529087AA5008B0669 /* PhotosClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosClient.swift; sourceTree = "<group>"; };
+		BDD36C2C29087C3A008B0669 /* PhotosOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosOrganizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				BDD36BFF29087878008B0669 /* Preview Content */,
 				BDD36C2329087971008B0669 /* Photos.swift */,
 				BDD36C2529087AA5008B0669 /* PhotosClient.swift */,
+				BDD36C2C29087C3A008B0669 /* PhotosOrganizer.swift */,
 			);
 			path = MyPics;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				BDD36C2629087AA5008B0669 /* PhotosClient.swift in Sources */,
 				BDD36BFC29087876008B0669 /* ContentView.swift in Sources */,
 				BDD36BFA29087876008B0669 /* MyPicsApp.swift in Sources */,
+				BDD36C2D29087C3A008B0669 /* PhotosOrganizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
