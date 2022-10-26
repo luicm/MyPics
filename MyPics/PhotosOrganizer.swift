@@ -39,7 +39,7 @@ struct PhotosOrganizer: ReducerProtocol {
                 
                 let photosDic = Dictionary(grouping: photos, by: { $0.albumId })
                 
-                var albums = photosDic.map({ key, value -> Album in
+                let albums = photosDic.map({ key, value -> Album in
                     Album(id: key, photos: value.map{Photo(id: $0.id, title: $0.title, url: URL(string: $0.url), thumbnailUrl: URL(string: $0.thumbnailUrl)) } )
                 })
                 
